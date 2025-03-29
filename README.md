@@ -1,11 +1,8 @@
 # goit-algo2-hw-02
 The repository for the 2nd GoItNeo Design and Analysis of Algorithms homework
 
-# goit-algo2-hw-01
-The repository for the 1st GoItNeo Design and Analysis of Algorithms homework
-
 ### Task 1: Optimization of the 3D printer queue in a university laboratory
-Utilize the input data as a list of printing tasks, with the following information included in each task: ID, model volume, priority, and printing time.
+Utilize the input data as a list of printing tasks, including the following information in each task: ID, model volume, priority, and printing time.
 
 #### Requirements:
 Execute the optimize_printing function, which will:
@@ -15,7 +12,7 @@ Execute the optimize_printing function, which will:
 - Verify the quantity and volume restrictions.
 - Determine how long printing will take overall.
 - Give back the best printing order.
-- Print the ideal printing sequence together with the total amount of time needed to finish all the activities.
+- Print the ideal printing sequence and the total time needed to finish all the activities.
 
 #### Results:
 {'print_order': ['M1', 'M2', 'M3'], 'total_time': 270}
